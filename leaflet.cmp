@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+
+    <ltng:require styles="/resource/leaflet/leaflet.css" />    
+    <ltng:require scripts="/resource/leaflet/leaflet.js"
+             afterScriptsLoaded="{!c.jsLoaded}" />
+
+    <div class="map" id="map"></div>
+
+</aura:component>
